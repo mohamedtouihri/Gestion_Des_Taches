@@ -205,10 +205,10 @@ http://localhost/gestion-taches/
 | `admin/users.php` | Panneau d'administration |
 
 <p align="center">
-  <img src="screenshots/Screenshot (1356).png" width="45%" />
+  <img src="screenshots/Screenshot (1382).png" width="45%" />
   <img src="screenshots/Screenshot (1357).png" width="45%" />
-  <img src="screenshots/Screenshot (1358).png" width="45%" />
-  <img src="screenshots/Screenshot (1360).png" width="45%" />
+  <img src="screenshots/Screenshot (1367).png" width="45%" />
+  <img src="screenshots/Screenshot (1387).png" width="45%" />
 </p>
 
 ---
