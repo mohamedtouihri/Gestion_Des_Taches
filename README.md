@@ -204,7 +204,7 @@ http://localhost/gestion-taches/
 | `tasks/dashboard.php` | Tableau de bord utilisateur |
 | `admin/users.php` | Panneau d'administration |
 
-*(Ajouter vos captures d'écran dans un dossier /screenshot et les lier ici)*
+*(Ajouter vos captures d'écran dans un dossier `/screenshots` et les lier ici)*
 
 ---
 
