@@ -5,9 +5,9 @@ session_start();
 
 // --- 2. DATABASE CONNECTION ---
 $pdo = new PDO(
-    "mysql:host=localhost;dbname=gestion_taches;charset=utf8",
-    "root",  // default XAMPP username
-    ""       // default XAMPP password (empty)
+  "mysql:host=sql309.infinityfree.com;dbname=if0_41810543_db_gestion;charset=utf8",
+  "if0_41810543",
+  "vel9kKBBM0JtF"
 );
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
