@@ -1,0 +1,83 @@
+# ===================================================
+# .gitignore — Gestion des Tâches Sécurisée
+# Fichiers à NE PAS pousser sur GitHub
+# ===================================================
+
+# ─── Fichiers sensibles ───────────────────────────
+# Ne jamais committer la config de connexion
+# (si vous avez un vrai mot de passe MySQL)
+# config/db.php   ← décommenter si mot de passe réel
+
+# Fichier de création admin (temporaire — à supprimer après usage)
+create_admin.php
+gen_hash.php
+
+# ─── Système d'exploitation ───────────────────────
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ─── Éditeurs et IDEs ─────────────────────────────
+# VS Code
+.vscode/
+*.code-workspace
+
+# PhpStorm / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ─── PHP / Composer ───────────────────────────────
+vendor/
+composer.lock
+
+# Logs PHP
+*.log
+error_log
+php_errorlog
+
+# ─── XAMPP / Serveur local ────────────────────────
+/logs/
+/tmp/
+
+# ─── Fichiers de sauvegarde ───────────────────────
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+*.swo
+
+# ─── Fichiers de rapport (optionnel) ──────────────
+# Décommenter si vous ne voulez pas pousser les docs
+# *.docx
+# *.tex
+# *.pdf
+
+# ─── Base de données (exports locaux) ─────────────
+# Garder gestion_taches.sql (schéma) mais ignorer les dumps de données
+*_dump.sql
+*_backup.sql
