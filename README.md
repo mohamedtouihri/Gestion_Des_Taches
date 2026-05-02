@@ -204,7 +204,12 @@ http://localhost/gestion-taches/
 | `tasks/dashboard.php` | Tableau de bord utilisateur |
 | `admin/users.php` | Panneau d'administration |
 
-*(Ajouter vos captures d'écran dans un dossier `/screenshots` et les lier ici)*
+<p align="center">
+  <img src="screenshots/Screenshot (1356).png" width="45%" />
+  <img src="screenshots/Screenshot (1357).png" width="45%" />
+  <img src="screenshots/Screenshot (1358).png" width="45%" />
+  <img src="screenshots/Screenshot (1360).png" width="45%" />
+</p>
 
 ---
 
